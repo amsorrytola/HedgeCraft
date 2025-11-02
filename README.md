@@ -231,34 +231,6 @@ AaveLeverage (Short Manager):0x6C48458876De856113F1BB6a83Fd8E9882b84d74
 UniswapLPProvider (LP Manager): 0xe6B5107747e323D567b0e4246D0041a6B427a7E2
 ```
 
-### Quick Start
-
-```bash
-# Clone & install
-git clone https://github.com/your-team/hedgecraft.git
-cd hedgecraft/scaffold-eth-2
-
-# Install dependencies
-npm install
-forge install
-
-# Set environment
-cp .env.example .env.local
-# Add GEMINI_API_KEY, PRIVATE_KEY, etc.
-
-# Deploy contracts
-forge script script/Deploy.s.sol --rpc-url https://rpc-amoy.polygon.technology --broadcast
-
-# Run tests
-forge test -vv
-
-# Start frontend + agent
-yarn dev
-```
-
-Visit: `http://localhost:3000`
-
----
 
 ## 📈 Impact & Adoption Metrics
 
@@ -348,15 +320,6 @@ In 2-3 years, we envision:
 
 ---
 
-## 📞 Quick Links
-
-- **Live Demo:** [Polygon Amoy Testnet]
-- **Chat Interface:** AI agent-powered UX
-- **Simulation:** See hedge protection in action
-- **Docs:** Full technical deep-dives
-- **GitHub:** `github.com/your-team/hedgecraft`
-
----
 
 ## 📜 License
 
